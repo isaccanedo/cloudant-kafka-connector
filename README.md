@@ -9,7 +9,7 @@ Este projeto inclui conectores de origem e coletor do Apache Kafka Connect para 
 **Observação**: este arquivo README é para uma versão de pré-lançamento do
 conector. Isso significa que se refere a opções de configuração e recursos que são diferentes da versão lançada atualmente. Para obter informações sobre a versão atualmente lançada, consulte o [README aqui](https://github.com/IBM/cloudant-kafka-connector/blob/0.100.2-kafka-1.0.0/README.md).
 
-## Release Status
+## Status de lançamento
 
 Experimental
 
