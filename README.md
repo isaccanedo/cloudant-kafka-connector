@@ -46,7 +46,7 @@ Para o conector de origem:
 * The `schemas.enabled` may be safely used with a `key.converter` if desired.
 * The source connector does not generate schemas for the record values by default. To use `schemas.enable` with the `value.converter` consider using a schema registry or the `MapToStruct` SMT detailed below.
 
-#### Converter configuration: sink connector
+#### Configuração do conversor: conector da pia
 
 For the sink connector:
 1. Kafka keys are currently ignored; therefore the key converter settings are not relevant.
