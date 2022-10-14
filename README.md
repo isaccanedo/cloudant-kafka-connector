@@ -4,7 +4,7 @@
 
 Este projeto inclui conectores de origem e coletor do Apache Kafka Connect para IBM Cloudant.
 
-## Pre-release
+## Pré-lançamento
 
 **Note**: this README file is for a pre-release version of the
 connector. This means it refers to configuration options and features
