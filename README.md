@@ -15,8 +15,8 @@ Experimental
 
 ## Índice
 
-* Configuration
-* Usage
+* Configuração
+* Uso
 
 ## Configuration
 
