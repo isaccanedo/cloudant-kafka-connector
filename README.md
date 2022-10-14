@@ -20,7 +20,7 @@ Experimental
 
 ## Configuração
 
-The Cloudant Kafka connector is designed to be used with Kafka Connect API 3.x.
+O conector Cloudant Kafka foi projetado para ser usado com a API Kafka Connect 3.x.
 
 The Cloudant Kafka connector can be configured in standalone or distributed mode according to 
 the [Kafka Connector documentation](https://kafka.apache.org/documentation.html#connect_configuring). At a minimum it is necessary to configure:
