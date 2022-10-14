@@ -2,7 +2,7 @@
 
 [![Maven Central](https://img.shields.io/maven-central/v/com.cloudant/kafka-connect-cloudant.svg)](http://search.maven.org/#search|ga|1|g:"com.cloudant"%20AND%20a:"kafka-connect-cloudant")
 
-This project includes Apache Kafka Connect source & sink connectors for IBM Cloudant.
+Este projeto inclui conectores de origem e coletor do Apache Kafka Connect para IBM Cloudant.
 
 ## Pre-release
 
