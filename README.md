@@ -18,7 +18,7 @@ Experimental
 * Configuração
 * Uso
 
-## Configuration
+## Configuração
 
 The Cloudant Kafka connector is designed to be used with Kafka Connect API 3.x.
 
