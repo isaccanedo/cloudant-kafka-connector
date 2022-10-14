@@ -37,7 +37,7 @@ key.converter.schemas.enable=true
 value.converter.schemas.enable=true
 ```
 
-#### Converter configuration: source connector
+#### Configuração do conversor: conector de origem
 
 For the source connector:
 * Keys are produced as `java.util.Map<String, String>` containing an `_id` entry with the original Cloudant document ID.
