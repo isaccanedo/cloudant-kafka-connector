@@ -27,7 +27,7 @@ O conector Cloudant Kafka pode ser configurado em modo autônomo ou distribuído
 1. `bootstrap.servers`
 2. Se estiver usando um trabalhador autônomo `offset.storage.file.filename`.
 
-### Converter configuration
+### Configuração do conversor
 
 The kafka distribution defaults are usually as follows:
 ```
