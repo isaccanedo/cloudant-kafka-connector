@@ -29,7 +29,7 @@ O conector Cloudant Kafka pode ser configurado em modo autônomo ou distribuído
 
 ### Configuração do conversor
 
-The kafka distribution defaults are usually as follows:
+Os padrões de distribuição kafka são geralmente os seguintes:
 ```
 key.converter=org.apache.kafka.connect.json.JsonConverter
 value.converter=org.apache.kafka.connect.json.JsonConverter
