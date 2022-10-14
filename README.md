@@ -25,7 +25,7 @@ O conector Cloudant Kafka foi projetado para ser usado com a API Kafka Connect 3
 O conector Cloudant Kafka pode ser configurado em modo autônomo ou distribuído de acordo com a [documentação do conector Kafka](https://kafka.apache.org/documentation.html#connect_configuring). At a minimum it is necessary to configure:
 
 1. `bootstrap.servers`
-2. If using a standalone worker `offset.storage.file.filename`.
+2. Se estiver usando um trabalhador autônomo `offset.storage.file.filename`.
 
 ### Converter configuration
 
