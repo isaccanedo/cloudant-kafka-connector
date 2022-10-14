@@ -13,7 +13,7 @@ conector. Isso significa que se refere a opções de configuração e recursos q
 
 Experimental
 
-## Table of Contents
+## Índice
 
 * Configuration
 * Usage
