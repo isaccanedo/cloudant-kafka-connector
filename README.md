@@ -69,7 +69,7 @@ Example configuration:
 
 ####Transformações de mensagem única
 
-Single Message Transforms, or SMTs, can be used to customize fields or values of events during data flow.  
+As Transformações de Mensagem Única, ou SMTs, podem ser usadas para customizar campos ou valores de eventos durante o fluxo de dados. 
 
 ##### Sink
 The examples below demonstrate modifying fields for events flowing from the Kafka topic to a Cloudant database using the sink connector.
