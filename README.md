@@ -61,7 +61,7 @@ Example configuration:
     ```
     See the [Kafka Connect transforms](https://kafka.apache.org/31/documentation.html#connect_transforms) documentation for more details.
 
-**Note:** The ID of each document written to Cloudant by the sink connector can be configured as follows:
+**Observação:** o ID de cada documento gravado no Cloudant pelo conector do coletor pode ser configurado da seguinte forma:
 
 1. From the value of the `cloudant_doc_id` header on the event.  The value passed to this header must be a string and the `header.converter=org.apache.kafka.connect.storage.StringConverter` config is required.  This will overwrite the `_id` field if it already exists.
 1. The value of the `_id` field in the JSON
