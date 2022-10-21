@@ -67,7 +67,7 @@ Example configuration:
 1. The value of the `_id` field in the JSON
 1. If no other non-null or non-empty value is available the document will be created with a new UUID.
 
-#### Single Message Transforms
+####Transformações de mensagem única
 
 Single Message Transforms, or SMTs, can be used to customize fields or values of events during data flow.  
 
