@@ -40,7 +40,7 @@ value.converter.schemas.enable=true
 #### Configuração do conversor: conector de origem
 
 Para o conector de origem:
-* Keys are produced as `java.util.Map<String, String>` containing an `_id` entry with the original Cloudant document ID.
+* As chaves são produzidas como `java.util.Map<String, String>` contendo uma entrada `_id` com o ID original do documento Cloudant.
 * Values are produced as a (schemaless) `java.util.Map<String, Object>`.
 * These types are compatible with the default `org.apache.kafka.connect.json.JsonConverter` and should be compatible with any other converter that can accept a `Map`.
 * The `schemas.enabled` may be safely used with a `key.converter` if desired.
