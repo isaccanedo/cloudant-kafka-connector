@@ -44,7 +44,7 @@ Para o conector de origem:
 * Os valores são produzidos como um (sem esquema) `java.util.Map<String, Object>`.
 * Esses tipos são compatíveis com o padrão `org.apache.kafka.connect.json.JsonConverter` e devem ser compatíveis com qualquer outro conversor que aceite um `Map`.
 * O `schemas.enabled` pode ser usado com segurança com um `key.converter` se desejado.
-* O conector de origem não gera esquemas para os valores de registro por padrão. To use `schemas.enable` with the `value.converter` consider using a schema registry or the `MapToStruct` SMT detailed below.
+* O conector de origem não gera esquemas para os valores de registro por padrão. Para usar `schemas.enable` com `value.converter`, considere usar um registro de esquema ou o `MapToStruct` SMT detalhado abaixo.
 
 #### Configuração do conversor: conector da pia
 
