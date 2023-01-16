@@ -60,7 +60,7 @@ Exemplo de configuração:
     transforms.ReplaceField.type=org.apache.kafka.connect.transforms.ReplaceField$Value 
     transforms.ReplaceField.exclude=_rev
     ```
-    See the [Kafka Connect transforms](https://kafka.apache.org/31/documentation.html#connect_transforms) documentation for more details.
+    Consulte a documentação [transformações do Kafka Connect](https://kafka.apache.org/31/documentation.html#connect_transforms) para obter mais detalhes.
 
 **Observação:** o ID de cada documento gravado no Cloudant pelo conector do coletor pode ser configurado da seguinte forma:
 
