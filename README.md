@@ -50,7 +50,7 @@ Para o conector de origem:
 
 Para o conector da pia:
 1. As chaves Kafka são atualmente ignoradas; portanto, as configurações do conversor de chave não são relevantes.
-1. Assumimos que os valores em kafka são objetos JSON serializados e, portanto, `JsonConverter` é suportado. If your values contain a schema (`{"schema": {...}, "payload": {...}}`), then set `value.converter.schemas.enable=true`, otherwise set `value.converter.schemas.enable=false`. Any other converter that converts the message values into `org.apache.kafka.connect.data.Struct` or `java.util.Map` types should also work. However, it must be noted that the subsequent serialization of `Map` or `Struct` values to JSON documents in the sink may not match expectations if a schema has not been provided.
+1. Assumimos que os valores em kafka são objetos JSON serializados e, portanto, `JsonConverter` é suportado.Se seus valores contiverem um esquema (`{"schema": {...}, "payload": {...}}`), defina `value.converter.schemas.enable=true`, caso contrário, defina `value .converter.schemas.enable=false`. Any other converter that converts the message values into `org.apache.kafka.connect.data.Struct` or `java.util.Map` types should also work. However, it must be noted that the subsequent serialization of `Map` or `Struct` values to JSON documents in the sink may not match expectations if a schema has not been provided.
 1. Inserting only a single revision of any `_id` is currently supported.  This means it cannot update or delete documents.
 1. The `_rev` field in event values are preserved.  To remove `rev` during data flow, use the `ReplaceField` Single Message Transforms (SMT).
 Example configuration:
