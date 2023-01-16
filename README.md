@@ -43,7 +43,7 @@ Para o conector de origem:
 * As chaves são produzidas como `java.util.Map<String, String>` contendo uma entrada `_id` com o ID original do documento Cloudant.
 * Os valores são produzidos como um (sem esquema) `java.util.Map<String, Object>`.
 * Esses tipos são compatíveis com o padrão `org.apache.kafka.connect.json.JsonConverter` e devem ser compatíveis com qualquer outro conversor que aceite um `Map`.
-* The `schemas.enabled` may be safely used with a `key.converter` if desired.
+* O `schemas.enabled` pode ser usado com segurança com um `key.converter` se desejado.
 * The source connector does not generate schemas for the record values by default. To use `schemas.enable` with the `value.converter` consider using a schema registry or the `MapToStruct` SMT detailed below.
 
 #### Configuração do conversor: conector da pia
