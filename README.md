@@ -64,7 +64,7 @@ Exemplo de configuração:
 
 **Observação:** o ID de cada documento gravado no Cloudant pelo conector do coletor pode ser configurado da seguinte forma:
 
-1. From the value of the `cloudant_doc_id` header on the event.  The value passed to this header must be a string and the `header.converter=org.apache.kafka.connect.storage.StringConverter` config is required.  This will overwrite the `_id` field if it already exists.
+1. Do valor do cabeçalho `cloudant_doc_id` no evento.  The value passed to this header must be a string and the `header.converter=org.apache.kafka.connect.storage.StringConverter` config is required.  This will overwrite the `_id` field if it already exists.
 1. The value of the `_id` field in the JSON
 1. If no other non-null or non-empty value is available the document will be created with a new UUID.
 
