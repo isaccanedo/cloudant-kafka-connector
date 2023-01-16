@@ -48,7 +48,7 @@ Para o conector de origem:
 
 #### Configuração do conversor: conector da pia
 
-For the sink connector:
+Para o conector da pia:
 1. Kafka keys are currently ignored; therefore the key converter settings are not relevant.
 1. We assume that the values in kafka are serialized JSON objects, and therefore `JsonConverter` is supported. If your values contain a schema (`{"schema": {...}, "payload": {...}}`), then set `value.converter.schemas.enable=true`, otherwise set `value.converter.schemas.enable=false`. Any other converter that converts the message values into `org.apache.kafka.connect.data.Struct` or `java.util.Map` types should also work. However, it must be noted that the subsequent serialization of `Map` or `Struct` values to JSON documents in the sink may not match expectations if a schema has not been provided.
 1. Inserting only a single revision of any `_id` is currently supported.  This means it cannot update or delete documents.
