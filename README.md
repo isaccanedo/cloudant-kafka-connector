@@ -75,7 +75,7 @@ As Transformações de Mensagem Única, ou SMTs, podem ser usadas para customiza
 ##### Sink
 Os exemplos abaixo demonstram a modificação de campos para eventos que fluem do tópico Kafka para um banco de dados Cloudant usando o conector de coletor.
 
-1. If the event value contains an existing field, not called `_id`, that is suitable to use as the Cloudant document ID, then you can use the `RenameField` transform.
+1. Se o valor do evento contiver um campo existente, não chamado `_id`, que seja adequado para uso como o ID do documento Cloudant, será possível usar a transformação `RenameField`.
     ```
     transforms=RenameField
     transforms.RenameField.type=org.apache.kafka.connect.transforms.ReplaceField$Value 
