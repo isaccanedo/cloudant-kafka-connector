@@ -66,7 +66,7 @@ Exemplo de configuração:
 
 1. Do valor do cabeçalho `cloudant_doc_id` no evento.  O valor passado para este cabeçalho deve ser uma string e a configuração `header.converter=org.apache.kafka.connect.storage.StringConverter` é necessária.  Isso substituirá o campo `_id` se já existir.
 2. The value of the `_id` field in the JSON
-3. If no other non-null or non-empty value is available the document will be created with a new UUID.
+3. Se nenhum outro valor não nulo ou não vazio estiver disponível, o documento será criado com um novo UUID.
 
 ####Transformações de mensagem única
 
