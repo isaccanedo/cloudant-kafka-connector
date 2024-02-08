@@ -81,7 +81,7 @@ Os exemplos abaixo demonstram a modificação de campos para eventos que fluem d
     transforms.RenameField.type=org.apache.kafka.connect.transforms.ReplaceField$Value 
     transforms.RenameField.renames=name:_id
     ```
-1. If you have `_id` fields and would prefer to have Cloudant generate a UUID for the document ID, use the `ReplaceField` transform to exclude the existing `_id` field:
+1. Se você tiver campos `_id` e preferir que o Cloudant gere um UUID para o ID do documento, use a transformação `ReplaceField` para excluir o campo `_id` existente:
     ```
     transforms=ReplaceField
     transforms.ReplaceField.type=org.apache.kafka.connect.transforms.ReplaceField$Value 
