@@ -87,10 +87,10 @@ Os exemplos abaixo demonstram a modificação de campos para eventos que fluem d
     transforms.ReplaceField.type=org.apache.kafka.connect.transforms.ReplaceField$Value 
     transforms.ReplaceField.exclude=_id
     ```
-1. If you have events where there is no value ([_tombstone_ events](https://kafka.apache.org/documentation.html#compaction)), you may wish to filter these out.
-    - In the Cloudant sink connector, these may be undesirable as they will generate an empty document.
-    - In the Cloudant source connector, tombstone events are generated for deleted documents (in addition to the deleted document itself).
-    - In either case, you can use the `RecordIsTombstone` predicate with a filter to remove these tombstone events as shown in this example:
+1. Se você tiver eventos onde não há valor ([_tombstone_ events](https://kafka.apache.org/documentation.html#compaction)), você pode querer filtrá-los.
+     - No conector do coletor Cloudant, estes podem ser indesejáveis, pois gerarão um documento vazio.
+     - No conector de origem do Cloudant, os eventos de exclusão são gerados para documentos excluídos (além do próprio documento excluído).
+     - Em ambos os casos, você pode usar o predicado `RecordIsTombstone` com um filtro para remover esses eventos de exclusão, conforme mostrado neste exemplo:
 
     ```
     transforms=dropNullRecords
