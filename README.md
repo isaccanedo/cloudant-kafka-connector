@@ -101,11 +101,11 @@ Os exemplos abaixo demonstram a modificação de campos para eventos que fluem d
     predicates.isNullRecord.type=org.apache.kafka.connect.transforms.predicates.RecordIsTombstone
     ```
 
-1. If you want to use the event key or another custom value as the document ID then use the `cloudant_doc_id` custom header.
-   The value set in this custom header will be added to the `_id` field.  If the `_id` field already exists then it will be overwritten
-   with the value in this header.
-   You can use the `HeaderFrom` SMT to move or copy a key to the custom header. The example config below adds the transform to move 
-   the `docid` event key to the `cloudant_doc_id` custom header and sets the header converter to string:
+1. Se você quiser usar a chave do evento ou outro valor personalizado como ID do documento, use o cabeçalho personalizado `cloudant_doc_id`.
+    O valor definido neste cabeçalho personalizado será adicionado ao campo `_id`. Se o campo `_id` já existir, ele será sobrescrito
+    com o valor neste cabeçalho.
+    Você pode usar o SMT `HeaderFrom` para mover ou copiar uma chave para o cabeçalho personalizado. O exemplo de configuração abaixo adiciona a transformação para mover
+    a chave de evento `docid` para o cabeçalho personalizado `cloudant_doc_id` e define o conversor de cabeçalho como string:
    ```
    transforms=moveFieldsToHeaders
    transforms.moveFieldsToHeaders.type=org.apache.kafka.connect.transforms.HeaderFrom$Key
