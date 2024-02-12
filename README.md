@@ -116,7 +116,7 @@ Os exemplos abaixo demonstram a modificação de campos para eventos que fluem d
    header.converter=org.apache.kafka.connect.storage.StringConverter
    ```
 
-   **Note**: The `header.converter` is required to be set to `StringConverter` since the document ID field only supports strings.
+   **Nota**: O `header.converter` deve ser definido como `StringConverter`, pois o campo de ID do documento suporta apenas strings.
 
 1. If you have events where the `_id` field is absent or `null` then Cloudant will generate
 a document ID. If you don't want this to happen then set an `_id` (see earlier examples).
