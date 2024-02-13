@@ -118,11 +118,11 @@ Os exemplos abaixo demonstram a modificação de campos para eventos que fluem d
 
    **Nota**: O `header.converter` deve ser definido como `StringConverter`, pois o campo de ID do documento suporta apenas strings.
 
-1. If you have events where the `_id` field is absent or `null` then Cloudant will generate
-a document ID. If you don't want this to happen then set an `_id` (see earlier examples).
-If you need to filter out those documents or drop `_id` fields when the value is `null` then you'll need to create a custom SMT.
+1. Se você tiver eventos onde o campo `_id` está ausente ou `null` então o Cloudant irá gerar
+um ID de documento. Se você não quer que isso aconteça, defina um `_id` (veja exemplos anteriores).
+Se você precisar filtrar esses documentos ou descartar campos `_id` quando o valor for `null`, você precisará criar um SMT personalizado.
 
-**Note**: For any of the SMTs above, if the field does not exist it will leave the event unmodified and continue processing the next event.
+**Observação**: Para qualquer um dos SMTs acima, se o campo não existir, ele deixará o evento inalterado e continuará processando o próximo evento.
 
 ##### Source
 The examples below demonstrate modifying records produced by the Cloudant source connector.
