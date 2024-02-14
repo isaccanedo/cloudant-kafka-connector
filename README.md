@@ -124,8 +124,8 @@ Se você precisar filtrar esses documentos ou descartar campos `_id` quando o va
 
 **Observação**: Para qualquer um dos SMTs acima, se o campo não existir, ele deixará o evento inalterado e continuará processando o próximo evento.
 
-##### Source
-The examples below demonstrate modifying records produced by the Cloudant source connector.
+##### Fonte
+Os exemplos abaixo demonstram a modificação de registros produzidos pelo conector de origem Cloudant.
 
 1. Flatten maps in the JSON document using the Kafka built-in `org.apache.kafka.connect.transforms.ReplaceField$Value`
     ```
