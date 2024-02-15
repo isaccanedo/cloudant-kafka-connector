@@ -133,11 +133,11 @@ Os exemplos abaixo demonstram a modificação de registros produzidos pelo conec
     transforms.FlattenMaps.type=org.apache.kafka.connect.transforms.Flatten
     ```
 
-1. Flatten arrays in the JSON document using `com.ibm.cloud.cloudant.kafka.connect.transforms.ArrayFlatten`. Note that this transform
-   is only suitable for use with Map record values and will filter records that do not conform. As such if used in conjunction with the
-   `MapToStruct` transform, this `ArrayFlatten` operation must precede `MapToStruct` in the SMT pipeline.
-   The `delimiter` configuration property may be used to customize the delimiter, which defaults to `.`.
-    ```
+1. Achate matrizes no documento JSON usando `com.ibm.cloud.cloudant.kafka.connect.transforms.ArrayFlatten`. Observe que esta transformação
+    é adequado apenas para uso com valores de registro de Mapa e filtrará registros que não estejam em conformidade. Como tal, se usado em conjunto com o
+    Transformação `MapToStruct`, esta operação `ArrayFlatten` deve preceder `MapToStruct` no pipeline SMT.
+    A propriedade de configuração `delimiter` pode ser usada para personalizar o delimitador, cujo padrão é `.`.
+     ```
     transforms=FlattenArrays
     transforms.FlattenArrays.type=com.ibm.cloud.cloudant.kafka.connect.transforms.ArrayFlatten
     ```
