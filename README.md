@@ -142,9 +142,9 @@ Os exemplos abaixo demonstram a modificação de registros produzidos pelo conec
     transforms.FlattenArrays.type=com.ibm.cloud.cloudant.kafka.connect.transforms.ArrayFlatten
     ```
 
-1. Convert schemaless `java.util.Map` values to `org.apache.kafka.connect.data.Struct` with an inferred schema. This transform is designed
-   to improve compatibility with other connectors and converters that requires a `Struct` type record. For complex schemas a schema registry
-   should be used.
+1. Converta valores `java.util.Map` sem esquema em `org.apache.kafka.connect.data.Struct` com um esquema inferido. Esta transformação é projetada
+    para melhorar a compatibilidade com outros conectores e conversores que requerem um registro do tipo `Struct`. Para esquemas complexos, um registro de esquema
+    deve ser usado.
     ```
     transforms=MapToStruct
     transforms.MapToStruct.type=com.ibm.cloud.cloudant.kafka.connect.transforms.MapToStruct
