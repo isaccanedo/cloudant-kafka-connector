@@ -185,8 +185,7 @@ Valid values are:
 - `container`
 - `vpc`.
 
-With the exception of `noAuth`, each of these authentication methods requires one or more additional properties to be set. These are listed below.
-
+Com exceção de `noAuth`, cada um desses métodos de autenticação requer a configuração de uma ou mais propriedades adicionais. Eles estão listados abaixo.
 #### cloudant.apikey
 
 For use with `iam` authentication.
