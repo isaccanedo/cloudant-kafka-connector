@@ -171,7 +171,7 @@ A number of different authentication methods are supported. IAM authentication i
 
 #### cloudant.auth.type
 
-The authentication method (or type). This value is case insensitive.
+O método (ou tipo) de autenticação. Este valor não diferencia maiúsculas de minúsculas.
 
 The default value is `iam`.
 
