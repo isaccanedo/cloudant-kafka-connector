@@ -287,7 +287,7 @@ Connector execution in Kafka is available through scripts in the Kafka install p
 
 `$kafka_home/bin/connect-standalone.sh` or `$kafka_home/bin/connect-distributed.sh`
 
-Use the appropriate configuration files for standalone or distributed execution with Cloudant as source, as sink, or both.
+Use os arquivos de configuração apropriados para execução autônoma ou distribuída com o Cloudant como origem, coletor ou ambos.
 
 For example:
 - standalone execution with Cloudant as source:
