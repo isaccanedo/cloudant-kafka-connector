@@ -175,7 +175,7 @@ O método (ou tipo) de autenticação. Este valor não diferencia maiúsculas de
 
 The default value is `iam`.
 
-Valid values are:
+Os valores válidos são:
 
 - `iam`
 - `couchdb_session`
