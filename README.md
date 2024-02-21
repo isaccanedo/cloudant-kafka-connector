@@ -150,10 +150,10 @@ Os exemplos abaixo demonstram a modificação de registros produzidos pelo conec
     transforms.MapToStruct.type=com.ibm.cloud.cloudant.kafka.connect.transforms.MapToStruct
     ```
 
-1. Omit design documents from the produced events by using the Kafka built-in `org.apache.kafka.connect.transforms.Filter`
-   in conjunction with the predicate `com.ibm.cloud.cloudant.kafka.connect.transforms.predicates.IsDesignDocument`. Note that this
-   predicate relies on the key format of the Cloudant source connector events so must be applied before any other transformations that
-   alter the key format.
+1. Omita documentos de design dos eventos produzidos usando o `org.apache.kafka.connect.transforms.Filter` integrado do Kafka
+    em conjunto com o predicado `com.ibm.cloud.cloudant.kafka.connect.transforms.predicates.IsDesignDocument`. Observe que isso
+    O predicado depende do formato chave dos eventos do conector de origem do Cloudant, portanto deve ser aplicado antes de qualquer outra transformação que
+    altere o formato da chave.
     ```
     transforms=omitDesignDocs
     transforms.omitDesignDocs.type=org.apache.kafka.connect.transforms.Filter
