@@ -127,7 +127,7 @@ Se você precisar filtrar esses documentos ou descartar campos `_id` quando o va
 ##### Fonte
 Os exemplos abaixo demonstram a modificação de registros produzidos pelo conector de origem Cloudant.
 
-1. Flatten maps in the JSON document using the Kafka built-in `org.apache.kafka.connect.transforms.ReplaceField$Value`
+1. Achate mapas no documento JSON usando o `org.apache.kafka.connect.transforms.ReplaceField$Value` integrado do Kafka
     ```
     transforms=FlattenMaps
     transforms.FlattenMaps.type=org.apache.kafka.connect.transforms.Flatten
