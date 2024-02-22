@@ -163,7 +163,7 @@ Os exemplos abaixo demonstram a modificação de registros produzidos pelo conec
     predicates.isDesignDoc.type=com.ibm.cloud.cloudant.kafka.connect.transforms.predicates.IsDesignDocument
     ```
 
-### Authentication
+### autenticação
 
 In order to read from or write to Cloudant, some authentication properties need to be configured. These properties are common to both the source and sink connector.
 
