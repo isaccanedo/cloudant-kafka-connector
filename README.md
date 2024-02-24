@@ -165,7 +165,7 @@ Os exemplos abaixo demonstram a modificação de registros produzidos pelo conec
 
 ### autenticação
 
-In order to read from or write to Cloudant, some authentication properties need to be configured. These properties are common to both the source and sink connector.
+Para ler ou gravar no Cloudant, algumas propriedades de autenticação precisam ser configuradas. Essas propriedades são comuns ao conector de origem e ao coletor.
 
 A number of different authentication methods are supported. IAM authentication is the default and recommended method; see [locating your service credentials](https://cloud.ibm.com/docs/Cloudant?topic=Cloudant-locating-your-service-credentials) for details on how to find your IAM API key.
 
