@@ -196,7 +196,7 @@ For use with `couchdb_session` or `basic` authentication.
 
 #### cloudant.bearer.token
 
-For use with `bearerToken` authentication.
+Para uso com autenticação `bearerToken`.
 
 #### cloudant.iam.profile.id 
 
