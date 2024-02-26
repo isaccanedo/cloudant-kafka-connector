@@ -188,7 +188,7 @@ Os valores válidos são:
 Com exceção de `noAuth`, cada um desses métodos de autenticação requer a configuração de uma ou mais propriedades adicionais. Eles estão listados abaixo.
 #### cloudant.apikey
 
-For use with `iam` authentication.
+Para uso com autenticação `iam`.
 
 #### cloudant.username, cloudant.password
 
