@@ -220,7 +220,7 @@ For use with `iam`, `container`, or `vpc` authentication.
 
 ### Cloudant as source
 
-In addition to those properties related to authentication, the Cloudant source connector supports the following properties:
+Além das propriedades relacionadas à autenticação, o conector de origem Cloudant suporta as seguintes propriedades:
 
 Parameter | Value                                                                  | Required | Default value | Description
 ---:|:-----------------------------------------------------------------------|:---|:---|:---
