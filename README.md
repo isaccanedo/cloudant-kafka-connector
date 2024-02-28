@@ -192,7 +192,7 @@ Para uso com autenticação `iam`.
 
 #### cloudant.username, cloudant.password
 
-For use with `couchdb_session` or `basic` authentication.
+Para uso com autenticação `couchdb_session` ou `basic`.
 
 #### cloudant.bearer.token
 
