@@ -235,10 +235,9 @@ cloudant.omit.design.docs| false                                                
 cloudant.value.schema.struct| false                                                                  |NO|false| _EXPERIMENTAL_ Set to true to generate a `org.apache.kafka.connect.data.Schema.Type.STRUCT` schema and send the Cloudant document payload as a `org.apache.kafka.connect.data.Struct` using the schema instead of the default of a string of the JSON document content when using the Cloudant source connector.
 cloudant.value.schema.struct.flatten| false                                                                  |NO|false| _EXPERIMENTAL_ Set to true to flatten nested arrays and objects from the Cloudant document during struct generation. Only used when cloudant.value.schema.struct is true and allows processing of JSON arrays with mixed element types when using that option.
 
-#### Example
+#### Exemplo
 
-To read from a Cloudant database as source and write documents to a Kafka topic, here is a minimal `connect-cloudant-source.properties`, using the default IAM authentication:
-
+Para ler um banco de dados Cloudant como origem e gravar documentos em um tópico Kafka, aqui está um `connect-cloudant-source.properties` mínimo, usando a autenticação IAM padrão:
 ```
 name=cloudant-source
 connector.class=com.ibm.cloud.cloudant.kafka.SourceChangesConnector
