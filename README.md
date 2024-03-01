@@ -288,8 +288,8 @@ Connector execution in Kafka is available through scripts in the Kafka install p
 
 Use os arquivos de configuração apropriados para execução autônoma ou distribuída com o Cloudant como origem, coletor ou ambos.
 
-For example:
-- standalone execution with Cloudant as source:
+Por exemplo:
+- execução autônoma com Cloudant como fonte:
 
   ```
   $kafka_home/bin/connect-standalone.sh connect-standalone.properties connect-cloudant-source.properties
