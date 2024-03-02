@@ -216,7 +216,7 @@ For use with `vpc` authentication.
 
 #### cloudant.auth.url, cloudant.scope, cloudant.client.id, cloudant.client.secret
 
-For use with `iam`, `container`, or `vpc` authentication.
+Para uso com autenticação `iam`, `container` ou `vpc`.
 
 ### Cloudant as source
 
