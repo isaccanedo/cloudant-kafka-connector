@@ -204,7 +204,7 @@ For use with `container` or `vpc` authentication.
 
 #### cloudant.iam.profile.name
 
-For use with `container` authentication.
+Para uso com autenticação `container`.
 
 #### cloudant.cr.token.filename
 
