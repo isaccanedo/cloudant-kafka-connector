@@ -212,7 +212,7 @@ For use with `container` authentication.
 
 #### cloudant.iam.profile.crn
 
-For use with `vpc` authentication.
+Para uso com autenticação `vpc`.
 
 #### cloudant.auth.url, cloudant.scope, cloudant.client.id, cloudant.client.secret
 
