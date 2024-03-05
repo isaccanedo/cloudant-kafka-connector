@@ -249,7 +249,7 @@ cloudant.apikey=my-apikey
 
 ### Cloudant as sink
 
-In addition to those properties related to authentication, the Cloudant sink connector supports the following properties:
+Além das propriedades relacionadas à autenticação, o conector de coletor Cloudant suporta as seguintes propriedades:
 
 Parameter | Value | Required | Default value | Description
 ---:|:---|:---|:---|:---
