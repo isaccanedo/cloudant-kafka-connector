@@ -200,7 +200,7 @@ Para uso com autenticação `bearerToken`.
 
 #### cloudant.iam.profile.id 
 
-For use with `container` or `vpc` authentication.
+Para uso com autenticação `container` ou `vpc`.
 
 #### cloudant.iam.profile.name
 
