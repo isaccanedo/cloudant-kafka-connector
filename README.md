@@ -264,7 +264,7 @@ replication|false|NO|false|Managed object schema in sink database <br>*true: dup
 
 #### Example
 
-To consume messages from a Kafka topic and save as documents into a Cloudant database, here is a minimal `connect-cloudant-sink.properties`, using the default IAM authentication:
+Para consumir mensagens de um tópico Kafka e salvar como documentos em um banco de dados Cloudant, aqui está um `connect-cloudant-sink.properties` mínimo, usando a autenticação IAM padrão:
 
 ```
 name=cloudant-sink
