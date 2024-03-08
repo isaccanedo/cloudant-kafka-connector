@@ -208,7 +208,7 @@ Para uso com autenticação `container`.
 
 #### cloudant.cr.token.filename
 
-For use with `container` authentication.
+Para uso com autenticação `container`.
 
 #### cloudant.iam.profile.crn
 
