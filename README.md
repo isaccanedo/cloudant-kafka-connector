@@ -279,8 +279,8 @@ cloudant.apikey=my-apikey
 
 From version `0.200.0` the cloudant-kafka-connector jar is available to download from the [releases page](https://github.com/IBM/cloudant-kafka-connector/releases).
 
-The jar file contains the plugin and the non-Kafka dependencies needed to run. Once copied into a
-[configured `plugin.path`](https://kafka.apache.org/documentation.html#connectconfigs_plugin.path) of a Kafka 3.x installation it will be available for use.
+O arquivo jar contém o plugin e as dependências não-Kafka necessárias para execução. Uma vez copiado em um
+[configurado `plugin.path`](https://kafka.apache.org/documentation.html#connectconfigs_plugin.path) de uma instalação do Kafka 3.x ele estará disponível para uso.
 
 Connector execution in Kafka is available through scripts in the Kafka install path:
 
