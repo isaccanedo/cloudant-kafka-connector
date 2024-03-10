@@ -262,7 +262,7 @@ tasks.max|5|NO|1|The number of concurrent threads to use for parallel bulk inser
 batch.size|400|NO|1000|The maximum number of documents to commit with a single bulk insert.
 replication|false|NO|false|Managed object schema in sink database <br>*true: duplicate objects from source <br>false: adjust objects from source (\_id = [\<topic-name\>\_\<partition\>\_\<offset>\_\<sourceCloudantObjectId\>], kc\_schema = Kafka value schema)*
 
-#### Example
+#### Exemplo
 
 Para consumir mensagens de um tópico Kafka e salvar como documentos em um banco de dados Cloudant, aqui está um `connect-cloudant-sink.properties` mínimo, usando a autenticação IAM padrão:
 
