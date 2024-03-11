@@ -313,6 +313,6 @@ INFO level logging is configured by default to the console. To change log levels
 
 `$kafka_home/config/connect-log4j.properties`
 
-and add log settings like
+e adicione configurações de log como
 
 `log4j.logger.com.ibm.cloud.cloudant.kafka=DEBUG, stdout`
