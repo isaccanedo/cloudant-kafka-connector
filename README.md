@@ -173,7 +173,7 @@ A number of different authentication methods are supported. IAM authentication i
 
 O método (ou tipo) de autenticação. Este valor não diferencia maiúsculas de minúsculas.
 
-The default value is `iam`.
+O valor padrão é `iam`.
 
 Os valores válidos são:
 
