@@ -282,7 +282,7 @@ From version `0.200.0` the cloudant-kafka-connector jar is available to download
 O arquivo jar contém o plugin e as dependências não-Kafka necessárias para execução. Uma vez copiado em um
 [configurado `plugin.path`](https://kafka.apache.org/documentation.html#connectconfigs_plugin.path) de uma instalação do Kafka 3.x ele estará disponível para uso.
 
-Connector execution in Kafka is available through scripts in the Kafka install path:
+A execução do conector no Kafka está disponível por meio de scripts no caminho de instalação do Kafka:
 
 `$kafka_home/bin/connect-standalone.sh` or `$kafka_home/bin/connect-distributed.sh`
 
