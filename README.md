@@ -218,7 +218,7 @@ Para uso com autenticação `iam`, `container` ou `vpc`.
 
 Além das propriedades relacionadas à autenticação, o conector de origem Cloudant suporta as seguintes propriedades:
 
-Parâmetro | Valor                                                                  | Required | Default value | Description
+Parâmetro | Valor                                                                  | Required | Valor Default | Description
 ---:|:-----------------------------------------------------------------------|:---|:---|:---
 name| cloudant-source                                                        |YES|None|Um nome exclusivo para identificar o conector.
 connector.class| com.ibm.cloud.cloudant.kafka.SourceChangesConnector |YES|None|The connector class name.
