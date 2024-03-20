@@ -220,7 +220,7 @@ Além das propriedades relacionadas à autenticação, o conector de origem Clou
 
 Parâmetro | Valor                                                                  | Requerido | Valor Default | Descrição
 ---:|:-----------------------------------------------------------------------|:---|:---|:---
-name| cloudant-source                                                        |YES|None|Um nome exclusivo para identificar o conector.
+nome| cloudant-source                                                        |YES|None|Um nome exclusivo para identificar o conector.
 connector.class| com.ibm.cloud.cloudant.kafka.SourceChangesConnector |YES|None|The connector class name.
 topics| \<topic1\>,\<topic2\>,..                                               |YES|None|A list of topics you want messages to be written to.
 cloudant.url| https://\<uuid\>.cloudantnosqldb.appdomain.cloud                       |YES|None|The Cloudant server to read documents from.
