@@ -229,7 +229,7 @@ cloudant.since| 1-g1AAAAETeJzLYWBgYMlgTmGQT0lKzi9..                             
 batch.size| 400                                                                    |NO|1000|The batch size used to bulk read from the Cloudant database.
 cloudant.omit.design.docs| false                                                                  |NO|false| Set to true to omit design documents from the messages produced.
 cloudant.value.schema.struct| false                                                                  |NO|false| _EXPERIMENTAL_ Set to true to generate a `org.apache.kafka.connect.data.Schema.Type.STRUCT` schema and send the Cloudant document payload as a `org.apache.kafka.connect.data.Struct` using the schema instead of the default of a string of the JSON document content when using the Cloudant source connector.
-cloudant.value.schema.struct.flatten| false                                                                  |NO|false| _EXPERIMENTAL_ Set to true to flatten nested arrays and objects from the Cloudant document during struct generation. Only used when cloudant.value.schema.struct is true and allows processing of JSON arrays with mixed element types when using that option.
+cloudant.value.schema.struct.flatten| false                                                                  |NO|false| _EXPERIMENTAL_ Set como true para nivelar matrizes e objetos aninhados do documento Cloudant durante a geração de estrutura. Usado apenas quando cloudant.value.schema.struct é verdadeiro e permite o processamento de matrizes JSON com tipos de elementos mistos ao usar essa opção.
 
 #### Exemplo
 
