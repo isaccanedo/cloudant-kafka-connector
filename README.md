@@ -247,7 +247,7 @@ cloudant.apikey=my-apikey
 
 Além das propriedades relacionadas à autenticação, o conector de coletor Cloudant suporta as seguintes propriedades:
 
-Parâmetro | Value | Required | Default value | Descrição
+Parâmetro | Valor | Required | Default value | Descrição
 ---:|:---|:---|:---|:---
 name|cloudant-sink|YES|None|A unique name to identify the connector with.
 connector.class|com.ibm.cloud.cloudant.kafka.SinkConnector|YES|None|The connector class name.
