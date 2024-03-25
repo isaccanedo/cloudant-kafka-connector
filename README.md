@@ -303,7 +303,7 @@ Por exemplo:
   $kafka_home/bin/connect-standalone.sh connect-standalone.properties connect-cloudant-source.properties connect-cloudant-sink.properties
   ```
 
-Any number of connector configurations can be passed to the executing script.
+Qualquer número de configurações de conector pode ser passado para o script em execução.
 
 INFO level logging is configured by default to the console. To change log levels or settings, work with
 
