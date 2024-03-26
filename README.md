@@ -291,7 +291,7 @@ Por exemplo:
   $kafka_home/bin/connect-standalone.sh connect-standalone.properties connect-cloudant-source.properties
   ```
 
-- standalone execution with Cloudant as sink:
+- execução autônoma com Cloudant como coletor:
 
   ```
   $kafka_home/bin/connect-standalone.sh connect-standalone.properties connect-cloudant-sink.properties
