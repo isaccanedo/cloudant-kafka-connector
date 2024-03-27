@@ -305,7 +305,7 @@ Por exemplo:
 
 Qualquer número de configurações de conector pode ser passado para o script em execução.
 
-INFO level logging is configured by default to the console. To change log levels or settings, work with
+A criação de log de nível INFO é configurada por padrão no console. Para alterar níveis ou configurações de log, trabalhe com
 
 `$kafka_home/config/connect-log4j.properties`
 
