@@ -251,7 +251,7 @@ Parâmetro | Valor | Required | Default value | Descrição
 ---:|:---|:---|:---|:---
 name|cloudant-sink|YES|None|A unique name to identify the connector with.
 connector.class|com.ibm.cloud.cloudant.kafka.SinkConnector|YES|None|The connector class name.
-topics|\<topic1\>,\<topic2\>,..|YES|None|The list of topics you want to consume messages from.
+topics|\<topic1\>,\<topic2\>,..|YES|None|A lista de tópicos dos quais você deseja consumir mensagens.
 cloudant.url|https://\<your-account\>.cloudant.com|YES|None|The Cloudant server to write documents to.
 cloudant.db|\<your-db\>|YES|None|The Cloudant database to write documents to.
 tasks.max|5|NO|1|The number of concurrent threads to use for parallel bulk insert into Cloudant.
