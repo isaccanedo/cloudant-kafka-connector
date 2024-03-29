@@ -225,7 +225,7 @@ connector.class| com.ibm.cloud.cloudant.kafka.SourceChangesConnector |YES|None|T
 topics| \<topic1\>,\<topic2\>,..                                               |YES|None|A list of topics you want messages to be written to.
 cloudant.url| https://\<uuid\>.cloudantnosqldb.appdomain.cloud                       |YES|None|The Cloudant server to read documents from.
 cloudant.db| \<your-db\>                                                            |YES|None|The Cloudant database to read documents from.
-cloudant.since| 1-g1AAAAETeJzLYWBgYMlgTmGQT0lKzi9..                                    |NO|0|The first change sequence to process from the Cloudant database above. 0 will apply all available document changes.
+cloudant.since| 1-g1AAAAETeJzLYWBgYMlgTmGQT0lKzi9..                                    |NO|0|A primeira sequência de alteração a ser processada no banco de dados Cloudant acima. 0 aplicará todas as alterações disponíveis no documento.
 batch.size| 400                                                                    |NO|1000|The batch size used to bulk read from the Cloudant database.
 cloudant.omit.design.docs| false                                                                  |NO|false| Set to true to omit design documents from the messages produced.
 cloudant.value.schema.struct| false                                                                  |NO|false| _EXPERIMENTAL_ Set to true to generate a `org.apache.kafka.connect.data.Schema.Type.STRUCT` schema and send the Cloudant document payload as a `org.apache.kafka.connect.data.Struct` using the schema instead of the default of a string of the JSON document content when using the Cloudant source connector.
